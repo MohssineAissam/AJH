@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AJHERITAGE The Inn</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#description">About Hotel</a></li>
+
+      <li class="logo"><img src="web logo(1).png" alt=""></li>
+
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <!-- <li><a href="#about">About Us</a></li> -->
+    </ul>
+  </nav>
+</header>
+
+<!-- <section class="hero" id="hero">
+  <h1>AJHERITAGE The Inn</h1>
+  <p>Where tranquility meets tradition</p>
+</section> -->
+<section class="hero">
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="rois.jpg" alt="Hotel View 1" class="slide-image">
+      <div class="text">Welcome to Our Hotel</div>
+    </div>
+    <div class="slide fade">
+      <img src="da6fe5c98ccc088789c70d871df0a9d4.jpg" alt="Hotel View 2" class="slide-image">
+      <div class="text">Luxury Experience</div>
+    </div>
+    <div class="slide fade">
+      <img src="frederik-rosar-wyf_W9RiBSw-unsplash.jpg" alt="Hotel View 3" class="slide-image">
+      <div class="text">Relax and Enjoy</div>
+    </div>
+    <div class="slide fade">
+      <img src="visualsofdana-T5pL6ciEn-I-unsplash.jpg" alt="Hotel View 4" class="slide-image">
+      <div class="text">Luxury Rooms</div>
+    </div>
+    <div class="slide fade">
+      <img src="michael-ali-6I1VUteiuQQ-unsplash.jpg" alt="Hotel View 5" class="slide-image">
+      <div class="text">Peaceful Escape</div>
+    </div>
+  </div>
+</section>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+</script>
+<section class="section" id="gallery">
+  <h2>Gallery</h2>
+  <div class="img-grid">
+    <img src="fat_ass.jpg" alt="jawad gay" />
+    <img src="small_ass.jpg" alt="Gallery Image 2" />
+    <img src="Untitled.jpg" alt="Gallery Image 3" />
+    <img src="aa.jpg" alt="Gallery Image 3" />
+  </div>
+</section>
+
+<!-- <section class="section" id="description">
+  <h2>Hotel Description</h2>
+  <p>Welcome to AJHERITAGE The Inn, your sanctuary in the heart of tradition. Our historic architecture blends seamlessly with modern luxury, offering an unforgettable escape surrounded by culture, comfort, and care.</p>
+</section> -->
+<section class="section" id="description">
+    <h2>Hotel Description</h2>
+    <div class="description-content">
+        <div class="description-text">
+            <p>Welcome to <span class="highlight">AJHERITAGE The Inn</span>, your sanctuary in the heart of tradition. Our historic architecture blends seamlessly with modern luxury, offering an unforgettable escape surrounded by culture, comfort, and care.</p>
+            <p>Experience the perfect blend of tranquility and elegance, where every detail is designed to provide you with a memorable stay. Whether you're here for relaxation or adventure, our dedicated team is here to ensure your comfort and satisfaction.</p>
+        </div>
+        <img src="adw.jpg" alt="Hotel Overview" class="description-image">
+    </div>
+</section>
+<section class="section" id="booking">
+  <h2>Book Your Stay</h2>
+  <form class="booking-form">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="date" required>
+    <input type="date" required>
+    <select required>
+      <option value="">Select Room Type</option>
+      <option>Single Room</option>
+      <option>Double Room</option>
+      <option>Suite</option>
+    </select>
+    <button type="submit">Book Now</button>
+  </form>
+</section>
+<section class="section" id="rooms">
+  <h2>Our Rooms</h2>
+  <div class="room-grid">
+    <div class="room-card">
+      <img src="tiny_ass.jpg" alt="Single Room" />
+      <h3>Single Room</h3>
+      <p>Cozy room perfect for solo travelers with all modern amenities.</p>
+    </div>
+    <div class="room-card">
+      <img src="dec7bf601023f88f7cc259b08e2d45a8.jpg" alt="Double Room" />
+      <h3>Double Room</h3>
+      <p>Spacious room for couples or friends, featuring a comfortable double bed.</p>
+    </div>
+    <div class="room-card">
+      <img src="b52153498e59b3426899b54c3272248e.jpg" alt="Suite" />
+      <h3>Suite</h3>
+      <p>Luxury suite with living space, perfect for a lavish stay.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <h2>Guest Reviews</h2>
+  <div class="reviews-container">
+    <div class="review-card">
+      <img src="steptodown.com538235(1).jpg" alt="Jane D." />
+      <div class="review-text">
+        <strong>Jane D.</strong>
+        <div class="stars">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <p>A magical stay! Everything was perfect from start to finish.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="steptodown.com108019.jpg" alt="John R." />
+      <div class="review-text">
+        <strong>John R.</strong>
+        <div class="stars">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span class="inactive">★</span>
+        </div>
+        <p>Beautiful setting and kind staff. Highly recommend!</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="steptodown.com377317.jpg" alt="Emily S." />
+      <div class="review-text">
+        <strong>Emily S.</strong>
+        <div class="stars">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <p>The ambiance was fantastic and the amenities top-notch.</p>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="steptodown.com631804.jpg" alt="Michael T." />
+      <div class="review-text">
+        <strong>Michael T.</strong>
+        <div class="stars">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span class="inactive">★</span>
+        </div>
+        <p>Great location and very friendly staff. Will visit again!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="section" id="reviews">
+  <h2>Guest Reviews</h2>
+  <div class="review">
+    <img src="https://via.placeholder.com/60" alt="Guest 1">
+    <div class="review-content">
+      <strong>Jane D.</strong>
+      <div class="stars">★★★★★</div>
+      <p>A magical stay! Everything was perfect from start to finish.</p>
+    </div>
+  </div>
+  <div class="review">
+    <img src="https://via.placeholder.com/60" alt="Guest 2">
+    <div class="review-content">
+      <strong>John R.</strong>
+      <div class="stars">★★★★☆</div>
+      <p>Beautiful setting and kind staff. Highly recommend!</p>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section about" id="about">
+  <div class="about-container">
+    <h2 class="about-title">About <span>AJHERITAGE The Inn</span></h2>
+    <p class="about-text">
+      Nestled in the heart of tranquility, <strong>AJHERITAGE The Inn</strong> offers a unique blend of traditional charm and modern luxury. Our mission is to create an unforgettable experience for every guest with warm hospitality, peaceful surroundings, and elegant rooms.
+    </p>
+    <p class="about-text">
+      Whether you're here for relaxation, adventure, or a special occasion, you'll find <span class="highlight">comfort</span>, <span class="highlight">care</span>, and <span class="highlight">class</span> at every step.
+    </p>
+    <a href="#booking" class="about-button">Book Your Stay</a>
+  </div>
+  <div class="social-media">
+  <a href="https://facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://linkedin.com" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</section>
+
+
+<footer class="footer">
+  <p>&copy; 2025 AJHERITAGE The Inn. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
