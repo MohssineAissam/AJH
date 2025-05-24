@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Booking | Our Auberge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="index.html#hero">Home</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+        <li><a href="index.html#description">About Hotel</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="index.html#rooms">Rooms</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="booking-page">
+    <h1>Book Your Stay</h1>
+    <form class="booking-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="checkin">Check-In Date:</label>
+      <input type="date" id="checkin" name="checkin" required />
+
+      <label for="checkout">Check-Out Date:</label>
+      <input type="date" id="checkout" name="checkout" required />
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" required />
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </main>
+</body>
+</html>
