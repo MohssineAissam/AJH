@@ -709,7 +709,7 @@ h2 {
 }
 
 .highlight {
-    color: #004d4d;
+    color: lab(29.01% -20.2 -5.94);
     font-weight: bold;
 }
 
